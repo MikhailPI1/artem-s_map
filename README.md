@@ -100,4 +100,14 @@ python manage.py load_place (адрес JSON файла)
     "coordinates": {"lng": 37.6173, "lat": 55.7558}
 }
 ```
+Вот так будет работает данная функция:
+
+Для начала у нас имеется всего пару точек:
+<img width="1914" height="884" alt="2025-10-25_01-27-53" src="https://github.com/user-attachments/assets/63b8c70a-7291-4724-84ec-6ee23a7ea612" />
+
+Но после выполнения данной команды с загрузкой JSON файла, как показано ниже, мы получим множество точек. А сам JSON сохранится в папку static/places, чтобы вы могли его найти, а все данные перенесутся в бд. Фотографии отправятся в media/places, а их пути сохранятся в бд вместе с привязкой к месту.
+<img width="1920" height="1080" alt="2025-10-25_01-24-23" src="https://github.com/user-attachments/assets/e82b0fe5-feec-4353-a548-2b902055c3e1" />
+<img width="1920" height="1080" alt="2025-10-25_01-24-51" src="https://github.com/user-attachments/assets/a86041c0-653b-4872-8668-24e8d821f013" />
+<img width="1912" height="962" alt="2025-10-25_01-17-31" src="https://github.com/user-attachments/assets/b17f04b1-6235-442b-b8e2-c5261de61fd5" />
+
 
