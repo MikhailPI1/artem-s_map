@@ -5,7 +5,6 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-blue.svg)
 ![Leaflet](https://img.shields.io/badge/Leaflet-Maps-brightgreen.svg)
 ![Docker](https://img.shields.io/badge/Docker-ready-blue.svg)
-![Black](https://img.shields.io/badge/code%20style-black-000000.svg)
 
 Веб-приложение для создания и управления интерактивной картой с точками интереса. Позволяет добавлять места с фотографиями, описаниями и координатами с удобной административной панелью. 
 
@@ -109,5 +108,6 @@ python manage.py load_place (адрес JSON файла)
 <img width="1920" height="1080" alt="2025-10-25_01-24-23" src="https://github.com/user-attachments/assets/e82b0fe5-feec-4353-a548-2b902055c3e1" />
 <img width="1920" height="1080" alt="2025-10-25_01-24-51" src="https://github.com/user-attachments/assets/a86041c0-653b-4872-8668-24e8d821f013" />
 <img width="1912" height="962" alt="2025-10-25_01-17-31" src="https://github.com/user-attachments/assets/b17f04b1-6235-442b-b8e2-c5261de61fd5" />
+
 
 
